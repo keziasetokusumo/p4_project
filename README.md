@@ -1,7 +1,7 @@
 # Analyzing Product Sentiment with Natural Language Processing (NLP)
 Using Natural Language Processing (NLP) to interpret, manipulate, and comprehend consumer attitudes towards major brands.
 
-![photo-1634128221889-82ed6efebfc3](https://github.com/keziasetokusumo/product_sentiment_analysis_nlp_project/assets/111642763/adb2bddd-7e13-49a0-a112-9f8a0663155a)
+<img width="983" alt="Screen Shot 2023-08-29 at 2 11 49 PM" src="https://github.com/keziasetokusumo/product_sentiment_analysis_nlp_project/assets/111642763/001302ad-0f34-4e4a-b751-d26cc71ba7d0">
 
 ## Overview and Problem Statement
 This project focuses on building a Natural Language Processing (NLP) tool as part of a classification task to analyze sentiment about products released by Apple, Google, and Android. Using machine learning models, we can assign emotion labels to thousands of tweets regarding the three companies and their products. Performing sentiment analysis on the Twitter dataset helps us determine whether a given tweet is positive, negative, or neutral, and our findings can be used to aid these businesses in monitoring perceptions about their brand and specific products.
