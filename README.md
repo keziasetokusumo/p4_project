@@ -1,5 +1,6 @@
 # Analyzing Product Sentiment with Natural Language Processing (NLP)
 Using Natural Language Processing (NLP) to interpret, manipulate, and comprehend consumer attitudes towards major brands.
+
 ![photo-1634128221889-82ed6efebfc3](https://github.com/keziasetokusumo/product_sentiment_analysis_nlp_project/assets/111642763/adb2bddd-7e13-49a0-a112-9f8a0663155a)
 
 ## Overview and Problem Statement
