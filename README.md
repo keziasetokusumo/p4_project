@@ -25,6 +25,7 @@ Below is a preview of the raw data table:
 
 ## Methods
 This project deals with a classification problem, as we're building a model to predict labels for each tweet. We start by preprocessing and cleaning the original dataset, and the procedure consists of:
+* Removing duplicate rows
 * Removing or replacing rows that contain null values
 * Renaming values and columns so they are less ambiguous
 * Tokenizing (the process of splitting into smaller pieces) strings of tweets
