@@ -7,7 +7,7 @@ Using Natural Language Processing (NLP) to interpret, manipulate, and comprehend
 This project focuses on building a Natural Language Processing (NLP) tool as part of a classification task to analyze sentiment about products released by Apple, Google, and Android. Using machine learning models, we can assign emotion labels to thousands of tweets regarding the three companies and their products. Performing sentiment analysis on the Twitter dataset helps us determine whether a given tweet is positive, negative, or neutral, and our findings can be used to aid these businesses in monitoring perceptions about their brand and specific products.
 
 ## The Data
-The file `tweet_data.csv` is a dataset containing tweets users posted about Google, Apple, or Android products. The columns in the original spreadsheet are as follows:
+The file `tweet_data.csv` is a dataset containing tweets that contributors at a festival posted about Google, Apple, or Android products. The columns in the original spreadsheet are as follows:
 * `tweet_text`: the original tweet
 * `emotion_in_tweet_is_directed_at`: the product the tweet is referring to
 * `is_there_an_emotion_directed_at_a_brand_or_product`: the emotion (or lack of emotion) expressed in the tweet
