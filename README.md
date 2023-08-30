@@ -18,7 +18,7 @@ The column `is_there_an_emotion_directed_at_a_brand_or_product` will serve as th
 * No emotion toward brand or product
 * I can't tell
 
-We assign a number to each target variable value for our analysis so the data can be modeled. Through performing a process called tokenizing on the `tweet_text` column and analyzing consumer sentiment by product and company, we can deliver actionable insights to each brand so they can better understand their strengths and address pain points.
+We assign a number to each target variable value for our analysis so the data can be modeled. Through performing a process called tokenizing on the `tweet_text` column and analyzing consumer sentiment by brand, we can deliver actionable insights to each brand so they can better understand their strengths and address pain points.
 
 Below is a preview of the raw data table:
 <img width="856" alt="Screen Shot 2023-08-29 at 12 56 50 PM" src="https://github.com/keziasetokusumo/product_sentiment_analysis_nlp_project/assets/111642763/c46bda30-8aae-4cdb-929d-836438cc40a7">
