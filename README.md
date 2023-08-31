@@ -108,7 +108,8 @@ More details can be found in this [Jupyter Notebook](https://github.com/keziaset
 ## Repository Structure
 ```
 ├── data
-├── images                       
+├── images
+├── .gitignore                         
 ├── README.md                                      
 ├── Tweet Sentiment Analysis Notebook.ipynb 
 ├── p4_project_deliverable.pdf
