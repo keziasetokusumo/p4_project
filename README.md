@@ -39,11 +39,22 @@ We performed an iterative modeling process by looping through several runs of a 
 * Hyperparameter tuning to identify the best parameters to specify
 * Random oversampling to handle data imbalances
 
-A Multinomial Naïve Bayes algorithm is used for this project, as the algorithm is best suited for categorizing text. Since the dataset we're dealing with isn't entirely numerical, many other algorithms, such as regressions, are less useful. Moreover, the Multinomial Naïve Bayes model can be scaled to tackle large quantities of data, and our original table has over 9000 rows.
+A Multinomial Naïve Bayes algorithm is used for this project, as the algorithm is best suited for categorizing text. Since the dataset we're dealing with isn't entirely numerical, many other algorithms, such as regressions, are less valuable. Moreover, the Multinomial Naïve Bayes model can be scaled to tackle large quantities of data, and our original table has over 9000 rows.
 
-In tuning our hyperparameters, we choose to specify "f1_weighted" as the scoring method since our dataset has a class imbalance, and we're dealing with a multiclass target. "f1_weighted" takes the mean score of each class' f1-score and accounts for each class' support. For reference, f1-score calculates the harmonic mean between precision and recall (number of true positives over total elements), and an f1-score returns the model's overall accuracy.
+In tuning our hyperparameters, we choose to specify "f1_weighted" as the scoring method since our dataset has a class imbalance, and we're dealing with a multiclass target. "f1_weighted" takes the mean score of each class' f1-score and accounts for each class' support. For reference, the f1-score calculates the harmonic mean between precision and recall (number of true positives over total elements), and an f1-score returns the model's overall accuracy.
 
 ## Results
+### Binary Classification
+The best version of our Multinomial Naïve Bayes algorithm for our binary classifier includes tokenization, stopword removal, random oversampling, and hyperparameter tuning. We got a test score of 0.88 and a weighted f1-score of 0.87. We've created a confusion matrix to visualize the performance of the classification algorithm with normalized (proportion) values. The two dimensions are "True label" and "Predicted label".
+
+<img width="384" alt="Screen Shot 2023-08-30 at 8 32 06 PM" src="https://github.com/keziasetokusumo/product_sentiment_analysis_nlp_project/assets/111642763/1a024c4b-ea28-4d2a-ad29-6d95fb6ccbee">
+
+### Multiclass Classification
+The Multinomial Naïve Bayes algorithm that returns the best results for our multiclass classifier includes tokenization, stopword removal, and hyperparameter tuning. We got a test score of 0.69 and a weighted f1-score of 0.67. We've created a confusion matrix to visualize the performance of the classification algorithm with normalized (proportion) values. The two dimensions are "True label" and "Predicted label". For this confusion matrix, an additional variable represents the tweets labeled "none" (also known as no sentiment tweets).
+
+<img width="378" alt="Screen Shot 2023-08-30 at 8 34 19 PM" src="https://github.com/keziasetokusumo/product_sentiment_analysis_nlp_project/assets/111642763/8b1c91fb-803c-4808-a0dc-c87b57b50784">
+
+### Sentiment Analysis for Google, Apple, and Android Brands
 
 ## Conclusion
 
@@ -63,17 +74,17 @@ The optimal MNB model for a multiclass classifier has the following parameters a
 By building an NLP tool and conducting a sentiment analysis, we recommend the following:
 
 Google
-* Google Maps garners lots of positive attention, and continued investment in the app is key to success
-* Launches and party events with popular figures like Marissa Mayer garner excitement from contributors
+* Google Maps garners lots of positive attention, and continued investment in the app is critical to success
+* Launches and party events with famous figures like Marissa Mayer garner excitement from contributors
 * Pain points addressed by customers include problems with Android compatibility and uncertainty surrounding product launches
 
 Apple
 * Frequently have popup stores and booths as consumers enjoy visiting new locations
-* Concentrate marketing efforts on product launches, as they garner enthusiasm (shown through iPad 2's launch)
+* Concentrate marketing efforts on product launches as they garner enthusiasm (shown through iPad 2's launch)
 * Increase product testing to address design headaches
 * Work towards improved corporate social responsibility efforts to ease negative perspectives on the company as a whole
 
 ## Future Analyses
 * Gather more data from different sources such as Google Reviews, stores like Best Buy, or tech articles
-* Find more negative sentiment data to improve the analysis on what consumers dislike about each brand
+* Find more negative sentiment data to improve the analysis of what consumers dislike about each brand
 * Add processes such as stemming to tokenization and stopword removal to see if better models can be built
