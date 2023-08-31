@@ -103,7 +103,7 @@ Apple
 * Add processes such as stemming to tokenization and stopword removal to see if better models can be built
 
 ## Additional Information
-More details can be found in this [Jupyter Notebook](https://github.com/keziasetokusumo/product_sentiment_analysis_nlp_project/blob/main/Tweet%20Sentiment%20Analysis%20Notebook.ipynb).
+More details can be found in this [Jupyter Notebook](https://github.com/keziasetokusumo/product_sentiment_analysis_nlp_project/blob/main/Tweet%20Sentiment%20Analysis%20Notebook.ipynb). A deliverable summarizing the project can also be found [here](https://github.com/keziasetokusumo/product_sentiment_analysis_nlp_project/blob/main/p4_project_deliverable.pdf).
 
 ## Repository Structure
 ```
