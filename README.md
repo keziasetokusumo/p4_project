@@ -42,3 +42,36 @@ We performed an iterative modeling process by looping through several runs of a 
 A Multinomial Naïve Bayes algorithm is used for this project, as the algorithm is best suited for categorizing text. Since the dataset we're dealing with isn't entirely numerical, many other algorithms, such as regressions, are less useful. Moreover, the Multinomial Naïve Bayes model can be scaled to tackle large quantities of data, and our original table has over 9000 rows.
 
 ## Results
+
+## Conclusion
+
+The optimal MNB model for a binary classifier has the following parameters and results:
+
+`Pipeline([('vect', TfidfVectorizer(tokenizer = tk.tokenize, stop_words = stopwords_list, ngram_range = (1,3))), ('mnb', MultinomialNB(alpha = 0.001))])`
+
+<img width="474" alt="Screen Shot 2023-08-30 at 7 36 40 PM" src="https://github.com/keziasetokusumo/product_sentiment_analysis_nlp_project/assets/111642763/74a1cebc-25e1-4fea-8766-c2cc21cc465f">
+
+The optimal MNB model for a multiclass classifier has the following parameters and results:
+
+`Pipeline([('vect', TfidfVectorizer(tokenizer = tk.tokenize, stop_words = stopwords_list, ngram_range = (1, 2))), ('mnb_multi', MultinomialNB(alpha = 0.1))])`
+
+<img width="470" alt="Screen Shot 2023-08-30 at 7 36 27 PM" src="https://github.com/keziasetokusumo/product_sentiment_analysis_nlp_project/assets/111642763/eb8420df-be52-4daf-94d5-0149af268eca">
+
+## Recommendation
+By building an NLP tool and conducting a sentiment analysis, we recommend the following:
+
+Google
+* Google Maps garners lots of positive attention, and continued investment in the app is key to success
+* Launches and party events with popular figures like Marissa Mayer garner excitement from contributors
+* Pain points addressed by customers include problems with Android compatibility and uncertainty surrounding product launches
+
+Apple
+* Frequently have popup stores and booths as consumers enjoy visiting new locations
+* Concentrate marketing efforts on product launches, as they garner enthusiasm (shown through iPad 2's launch)
+* Increase product testing to address design headaches
+* Work towards improved corporate social responsibility efforts to ease negative perspectives on the company as a whole
+
+## Future Analyses
+* Gather more data from different sources such as Google Reviews, stores like Best Buy, or tech articles
+* Find more negative sentiment data to improve the analysis on what consumers dislike about each brand
+* Add processes such as stemming to tokenization and stopword removal to see if better models can be built
