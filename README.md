@@ -109,8 +109,8 @@ More details can be found in this [Jupyter Notebook](https://github.com/keziaset
 ```
 ├── data
 ├── images                       
-├── Tweet Sentiment Analysis Notebook.ipynb                                      
-├── README.md
+├── README.md                                      
+├── Tweet Sentiment Analysis Notebook.ipynb 
 ├── p4_project_deliverable.pdf
 └──
 ```
