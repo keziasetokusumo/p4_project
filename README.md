@@ -41,6 +41,8 @@ We performed an iterative modeling process by looping through several runs of a 
 
 A Multinomial Naïve Bayes algorithm is used for this project, as the algorithm is best suited for categorizing text. Since the dataset we're dealing with isn't entirely numerical, many other algorithms, such as regressions, are less useful. Moreover, the Multinomial Naïve Bayes model can be scaled to tackle large quantities of data, and our original table has over 9000 rows.
 
+In tuning our hyperparameters, we choose to specify "f1_weighted" as the scoring method since our dataset has a class imbalance, and we're dealing with a multiclass target. "f1_weighted" takes the mean score of each class' f1-score and accounts for each class' support. For reference, f1-score calculates the harmonic mean between precision and recall (number of true positives over total elements), and an f1-score returns the model's overall accuracy.
+
 ## Results
 
 ## Conclusion
