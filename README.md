@@ -88,3 +88,6 @@ Apple
 * Gather more data from different sources such as Google Reviews, stores like Best Buy, or tech articles
 * Find more negative sentiment data to improve the analysis of what consumers dislike about each brand
 * Add processes such as stemming to tokenization and stopword removal to see if better models can be built
+
+## Additional Information
+More details can be found in this [Jupyter Notebook](https://github.com/keziasetokusumo/product_sentiment_analysis_nlp_project/blob/main/Tweet%20Sentiment%20Analysis%20Notebook.ipynb).
