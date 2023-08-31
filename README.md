@@ -55,7 +55,7 @@ The Multinomial Naïve Bayes algorithm that returns the best results for our mul
 <img width="378" alt="Screen Shot 2023-08-30 at 8 34 19 PM" src="https://github.com/keziasetokusumo/product_sentiment_analysis_nlp_project/assets/111642763/8b1c91fb-803c-4808-a0dc-c87b57b50784">
 
 ### Sentiment Analysis for Google, Apple, and Android Brands
-We created graphs showing bigrams associated with negative and positive sentiment tweets for Google, Apple, and Android brands. A more detailed explanation of our findings can be found in the [Jupyter Notebook](https://github.com/keziasetokusumo/product_sentiment_analysis_nlp_project/blob/main/Tweet%20Sentiment%20Analysis%20Notebook.ipynb), and a summary of recommendations can be found under the "Recommendation" portion of this Readme.
+We created bar graphs displaying the top bigrams associated with negative and positive sentiment tweets for Google, Apple, and Android brands. A bigram refers to a pair of two consecutive words. A detailed explanation of the graphs can be found in the [Jupyter Notebook](https://github.com/keziasetokusumo/product_sentiment_analysis_nlp_project/blob/main/Tweet%20Sentiment%20Analysis%20Notebook.ipynb), and a summary of recommendations can be found under the "Recommendation" portion of this Readme.
 
 #### Google
 <img width="920" alt="Screen Shot 2023-08-30 at 8 55 45 PM" src="https://github.com/keziasetokusumo/product_sentiment_analysis_nlp_project/assets/111642763/9e3870e3-e03b-4690-a271-4fcd8b1a5658">
