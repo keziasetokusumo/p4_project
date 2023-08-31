@@ -104,3 +104,13 @@ Apple
 
 ## Additional Information
 More details can be found in this [Jupyter Notebook](https://github.com/keziasetokusumo/product_sentiment_analysis_nlp_project/blob/main/Tweet%20Sentiment%20Analysis%20Notebook.ipynb).
+
+## Repository Structure
+```
+├── data
+├── images                       
+├── Tweet Sentiment Analysis Notebook.ipynb                                      
+├── README.md
+├── p4_project_deliverable.pdf
+└──
+```
