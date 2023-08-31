@@ -94,7 +94,7 @@ Google / Android
 Apple
 * Frequently have popup stores and booths as consumers enjoy visiting new locations
 * Concentrate marketing efforts on product launches as they garner enthusiasm (shown through iPad 2's launch)
-* Increase product testing to address design headaches
+* Increase product testing to address design headaches and iPhone battery issues
 * Work towards improved corporate social responsibility efforts to ease negative perspectives on the company as a whole
 
 ## Future Analyses
